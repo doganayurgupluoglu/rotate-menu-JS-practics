@@ -1,0 +1,91 @@
+body {
+  background-color: #ff6500;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #Ff6500;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 26px;
+  width: 100px;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transition: all 1s ease;
+  transform-origin: top left;
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  z-index: 100;
+}
+#open {
+transform: rotate(0deg);
+}
+#close {
+  transform: rotate(90deg);
+}
+#content{
+  background-color: white;
+  padding: 60px 60px;
+  transform-origin: top left;
+  transform: rotate(-0deg);
+  min-height: 100vh;
+  transition: all 1s ease;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.nav {
+  position: fixed;
+  top: 52%;
+  left: 0;
+  margin-left: -20px;
+}
+.nav li i {
+  margin-right: 8px;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: all 1s ease;
+}
+li:first-child{
+  margin-left: -15px;
+  transform: translateX(-100%);
+}
+li+li{
+transform: translateX(-155%);
+  margin-left: 5px;
+}
+li+li+li {
+  margin-left: 30px;
+transform: translateX(-200%);
+}

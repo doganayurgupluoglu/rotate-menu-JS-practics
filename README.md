@@ -20,6 +20,10 @@ Bu projede HTML, CSS ve JavaScript kullanarak dönen bir içerik kutusu ve açı
 
 ![Ekran Görüntüsü](./ss.png)
 
+## Canlı Demo
+
+👉 [rotate-menu-js-practics.vercel.app](https://rotate-menu-js-practics.vercel.app/)
+
 ## Amaç
 
 Bu proje, HTML/CSS/JS pratiği yapmak ve temel animasyon-mekanizma kurulumlarını öğrenmek amacıyla oluşturuldu. Öğrenme sürecinde küçük ama eğlenceli adımlar atmak için güzel bir çalışma oldu.
